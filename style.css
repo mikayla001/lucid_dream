@@ -1,0 +1,65 @@
+ul {
+  list-style-type: none;
+  margin: -10;
+  padding: 10;
+  overflow: hidden;
+  background-color: FCBFB7;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Cabin', sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover 
+{
+  background-color: black;
+}
+
+body{
+  background-color: fcfced;
+  font-family: 'Varela Round', sans-serif;
+  text-align: left;
+}
+
+main{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+h1{
+  font-size: 60px;
+  font-family: 'Karma', serif;
+  text-align: center;
+}
+
+.anime-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-item{
+  flex-basis:100%;
+  margin: 1%;
+}
