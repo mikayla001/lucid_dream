@@ -3,7 +3,7 @@ ul {
   margin: -10;
   padding: 10;
   overflow: hidden;
-  background-color: FCBFB7;
+  background-color: 56BCA8;
 }
 
 li {
@@ -23,43 +23,44 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover 
 {
-  background-color: black;
+  background-color: 12284F;
 }
 
-body{
-  background-color: fcfced;
-  font-family: 'Varela Round', sans-serif;
-  text-align: left;
+header{
+  padding: 60px;
+  margin: -10px;
+  color: white;
+  background-image: url('header01.jpg');
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  text-align: center
 }
 
 main{
+  color: 12284F;
+  font-family: 'Cabin', sans-serif;
   margin-top: 50px;
   margin-bottom: 100px;
   margin-right: 150px;
   margin-left: 80px;
 }
 
-h1{
-  font-size: 60px;
-  font-family: 'Karma', serif;
-  text-align: center;
+body {
+  background-color: FAF7ED;
 }
 
-.anime-pic{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: auto;
+@media (max-width: 600px)
+{
+  main{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
+  }
+  .videoWrapper iframe {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
-
-.flex-container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-
-.flex-item{
-  flex-basis:100%;
-  margin: 1%;
 }
